@@ -10,10 +10,14 @@ function MusicToggle() {
       aria-label={isOn ? "Play sound" : "Mute sound"}
       title={isOn ? "Play sound" : "Mute sound"}
     >
-      <img
-        src={isOn ? `${import.meta.env.BASE_URL}Icons/MusicOff.png` : `${import.meta.env.BASE_URL}Icons/MusicON.png`}
-        alt=""
-      />
+    <img
+      src={
+        isOn
+          ? `${import.meta.env.BASE_URL}Icons/MusicOff.png`
+          : `${import.meta.env.BASE_URL}Icons/MusicOn.png`
+      }
+      alt=""
+    />
     </button>
   );
 }
