@@ -14,7 +14,7 @@ function GalleryPage() {
       <header className="page-header header--gallery">
         <PageHeading title="Fietas Gallery" />
       </header>
-      <img src="/Icons/banner 2.png" className="banner-strip" alt="" />
+      <img src={`${import.meta.env.BASE_URL}Icons/banner 2.png`} className="banner-strip" alt="" />
       <div className="gallery-grid">
         {gallery.map((item, i) => (
           <button

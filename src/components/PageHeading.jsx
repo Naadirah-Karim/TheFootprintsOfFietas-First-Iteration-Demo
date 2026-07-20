@@ -5,7 +5,7 @@ function PageHeading({ title, subtitle }) {
     <>
       <div className="heading-row">
         <Link to="/" className="header-home-link" aria-label="Go to home page">
-          <img src="{`${import.meta.env.BASE_URL}Icons/footprint-logo.png" alt="" />
+          <img src={`${import.meta.env.BASE_URL}Icons/footprint-logo.png`} alt="Footprints of Fietas logo" />
         </Link>
         <h1>{title}</h1>
       </div>

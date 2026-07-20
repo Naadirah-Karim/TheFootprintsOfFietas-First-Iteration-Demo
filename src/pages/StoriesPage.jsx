@@ -11,11 +11,11 @@ function StoriesPage() {
       <header className="page-header header--stories">
         <PageHeading title="Fietas Stories" />
       </header>
-      <img src="/Icons/banner 2.png" className="banner-strip" alt="" />
+      <img src={`${import.meta.env.BASE_URL}Icons/banner 2.png`} className="banner-strip" alt="" />
       <div className="stories-list">
         {stories.map((story) => (
           <div key={story.id} className="story-card">
-            <img src="/Icons/love.png" alt="" className="story-icon" />
+            <img src={`${import.meta.env.BASE_URL}Icons/love.png`}alt="" className="story-icon" />
             <div className="story-info">
               <span className="story-date">{story.date}</span>
               <h2>{story.title}</h2>

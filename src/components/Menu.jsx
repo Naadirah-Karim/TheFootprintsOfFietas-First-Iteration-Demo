@@ -31,7 +31,7 @@ function Menu() {
           onClick={toggleMenu}
           aria-label="Open menu"
         >
-          <img src="{`${import.meta.env.BASE_URL}Icons/menu.png" alt="" />
+        <img src={`${import.meta.env.BASE_URL}Icons/menu.png`} />
         </button>
       )}
 
@@ -51,7 +51,7 @@ function Menu() {
           ✕
         </button>
         <div className="menu-header">
-          <img src="{`${import.meta.env.BASE_URL}Icons/banner.png" className="menu-banner" alt="" />
+        <img src={`${import.meta.env.BASE_URL}Icons/banner.png`} />
           <div className="menu-header-bar">
             <h3>Menu</h3>
           </div>

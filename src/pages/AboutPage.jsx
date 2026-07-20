@@ -23,7 +23,7 @@ function AboutPage() {
         <PageHeading title="About" />
       </header>
       <div className="about-wrap">
-        <img src="/Icons/banner 3.png" className="about-banner-vertical" alt="floral banner" />
+        <img src={`${import.meta.env.BASE_URL}Icons/banner 3.png`} className="about-banner-vertical" alt="floral banner" />
 
         <div className="about-container">
           <h1>Hi there, my name is Naadirah Karim</h1>

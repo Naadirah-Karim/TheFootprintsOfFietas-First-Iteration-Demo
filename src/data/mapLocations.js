@@ -15,8 +15,8 @@ const mapLocations = [
     hasDetail: true,
     credit: "Photographs by David Goldblatt",
     images: [
-      "/davidgoldblattimages/4_2386.jpg",
-      "/davidgoldblattimages/4_4051.jpg",
+      `${import.meta.env.BASE_URL}davidgoldblattimages/4_2386.jpg`,
+      `${import.meta.env.BASE_URL}davidgoldblattimages/4_4051.jpg`,
     ],
     paragraphs: [
       "Photographed before its destruction, this butchery represents the defiance of Fietas traders. Shopkeepers like Sahib refused to move to the Oriental Plaza, facing police with dogs who threw their goods onto the streets. Some Indian families \"refused to cow down to the government's pressure,\" embodied in the Save Pageview Association's motto: \"We will not move.\"",
@@ -34,7 +34,7 @@ const mapLocations = [
     hasDetail: true,
     credit: "Photographs by David Goldblatt",
     images: [
-      "/davidgoldblattimages/3CT_16.jpg",
+      `${import.meta.env.BASE_URL}davidgoldblattimages/3CT_16.jpg`,
     ],
     paragraphs: [
       "Spice shops like Modi's were essential to the culinary and cultural life of Fietas. The Modi family started their spice business in 1902 with his parents' help, drawing on generations of trade built up on 17th Street, the symbolic divide between the \"north\" and the \"wild south\" of Fietas.",
@@ -52,8 +52,8 @@ const mapLocations = [
     hasDetail: true,
     credit: "Photographs by David Goldblatt",
     images: [
-      "/davidgoldblattimages/4_2449.jpg",
-      "/davidgoldblattimages/4_5221.jpg",
+      `${import.meta.env.BASE_URL}davidgoldblattimages/4_2449.jpg`,
+      `${import.meta.env.BASE_URL}davidgoldblattimages/4_5221.jpg`,
     ],
     paragraphs: [
       "The 23rd Street Mosque and Madrassa (the \"Malay mosque\") was one of two main mosques in Fietas, hosting weekly zikr sessions, ratieb, and maulood prayers. Because the ground was consecrated for worship, it could not be as easily bulldozed as the homes around it, and it stood for years after the surrounding houses were flattened.",

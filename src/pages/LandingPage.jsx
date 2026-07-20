@@ -7,14 +7,13 @@ function LandingPage() {
     <div className="landing">
       <MusicToggle />
       <div className="hero">
-        <img src="/Icons/footprint-logo.png" alt="TFOF Logo" className="logo-icon" />
+        <img   src={`${import.meta.env.BASE_URL}Icons/footprint-logo.png`} alt="Footprints of Fietas logo" className="logo-icon" />
         <h1>The Footprints of Fietas</h1>
         <p className="tagline">
           A community isn't just buildings, it's the spaces between them, filled with memories.
         </p>
         <img
-          src="/Icons/footprints-houses-row.png"
-          alt="Illustration of a row of colourful Fietas houses beside a pile of demolition rubble"
+            src={`${import.meta.env.BASE_URL}Icons/footprints-houses-row.png`} alt="Illustration of a row of colourful Fietas houses beside a pile of demolition rubble"
           className="houses-illustration"
         />
         <div className="buttons">

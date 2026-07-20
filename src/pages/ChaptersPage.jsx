@@ -11,15 +11,15 @@ function ChaptersPage() {
       <header className="page-header header--chapters">
         <PageHeading title="Story Chapters" />
       </header>
-      <img src="/Icons/banner 2.png" className="banner-strip" alt="" />
+      <img src={`${import.meta.env.BASE_URL}Icons/banner 2.png`} className="banner-strip" alt="" />
 
       <div className="chapters-divider">
-        <img src="/Icons/clothespin.png" alt="" className="divider-pin" />
-        <img src="/Icons/clothespin.png" alt="" className="divider-pin" />
-        <img src="/Icons/clothespin.png" alt="" className="divider-pin" />
-        <img src="/Icons/clothespin.png" alt="" className="divider-pin" />
-        <img src="/Icons/clothespin.png" alt="" className="divider-pin" />
-        <img src="/Icons/clothespin.png" alt="" className="divider-pin" />
+        <img src={`${import.meta.env.BASE_URL}Icons/clothespin.png`} alt="" className="divider-pin" />
+        <img src={`${import.meta.env.BASE_URL}Icons/clothespin.png`}  alt="" className="divider-pin" />
+        <img src={`${import.meta.env.BASE_URL}Icons/clothespin.png`}  alt="" className="divider-pin" />
+        <img src={`${import.meta.env.BASE_URL}Icons/clothespin.png`}  alt="" className="divider-pin" />
+        <img src={`${import.meta.env.BASE_URL}Icons/clothespin.png`}  alt="" className="divider-pin" />
+        <img src={`${import.meta.env.BASE_URL}Icons/clothespin.png`}  alt="" className="divider-pin" />
       </div>
 
       <div className="chapters-grid">
@@ -29,7 +29,7 @@ function ChaptersPage() {
             to={`/chapters/${chapter.id}/1`}
             className="chapter-card"
           >
-            <img src="/Icons/GirlLady2.png" alt="" className="chapter-illustration" />
+            <img src={`${import.meta.env.BASE_URL}Icons/GirlLady2.png`} alt="" className="chapter-illustration" />
             <span className="chapter-label">CHAPTER {chapter.id}</span>
           </Link>
         ))}

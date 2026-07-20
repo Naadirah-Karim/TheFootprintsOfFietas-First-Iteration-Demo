@@ -20,7 +20,7 @@ function MapPage() {
 
       <div className="map-wrap">
         <div className="map-canvas">
-          <img src="/Icons/fietas-map-zoom.jpg" alt="Illustrated map of Fietas" className="map-image" />
+          <img src={`${import.meta.env.BASE_URL}Icons/fietas-map-zoom.jpg`} alt="Illustrated map of Fietas" className="map-image" />
 
           {/* pins link through to the details page */}
           {mainPins.map((loc) => (
@@ -31,7 +31,7 @@ function MapPage() {
             >
               <span className="map-label-box">{loc.name}</span>
               <Link to={`/map/${loc.id}`} className="map-pin" aria-label={loc.name}>
-                <img src="/Icons/map.png" alt="" />
+                <img src={`${import.meta.env.BASE_URL}Icons/map.png`} alt="" />
               </Link>
             </div>
           ))}
