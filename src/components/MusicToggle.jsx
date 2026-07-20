@@ -11,7 +11,7 @@ function MusicToggle() {
       title={isOn ? "Play sound" : "Mute sound"}
     >
       <img
-        src={isOn ? "/Icons/MusicOff.png" : "/Icons/MusicOn.png"}
+        src={isOn ? "{`${import.meta.env.BASE_URL}Icons/MusicOff.png" : "{`${import.meta.env.BASE_URL}Icons/MusicOn.png"}
         alt=""
       />
     </button>
