@@ -1,0 +1,25 @@
+.story-detail-page {
+  min-height: 95vh;
+  background: var(--color-cream-deep);
+  padding-bottom: 5rem;
+}
+
+.story-detail-body {
+  max-width: 1000px;
+  margin: 2rem auto 0;
+  padding: 0 1.5rem;
+  background: var(--color-light-gold);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.story-detail-body {
+  padding: 2.25rem 2rem;
+}
+
+.story-detail-body p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--color-ink);
+  margin: 0 0 1.2rem;
+}

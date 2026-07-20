@@ -1,0 +1,182 @@
+:root {
+  --color-ink: #2b2118;
+  --color-cream: #F8F8F8;
+  --color-cream-deep: #F8F7F3;
+  --color-brown-dark: #462716;
+  --color-green: #A7DE83;
+  --color-green-dark: #3D5D27;
+  --color-purple: #CFB4CF;
+  --color-purple-dark: #6C4B72;
+  --color-blue: #3C596D;
+  --color-slate-blue: #9DB5C9;  
+  --color-terracotta: #963522;
+  --color-coral: #FFB0A1;
+  --color-gold: #6D5303;
+  --color-light-gold: #EDD795;
+  --color-sand:#774E27;
+  --color-light-sand:#E5B385;
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+
+  --font-display: 'Berkshire Swash', serif;
+  --font-heading: 'Rye', cursive;
+  --font-tagline: 'Patua One', serif;
+  --font-body: 'Arvo', serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-cream);
+}
+
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+.main { flex: 1; }
+
+/* Shared decorative page header used across Pages*/
+.page-header {
+  position: relative;
+  padding: 0.7rem ;
+  text-align: center;
+  overflow: hidden;
+}
+
+.page-header h1 {
+  color: var(--color-cream);
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  margin: 0 ;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.35);
+}
+
+.page-header p {
+  font-family: var(--font-tagline);
+  font-size: 1.05rem;
+  margin: 0.2rem 0 0 1.5rem;
+  opacity: 0.95;
+}
+
+/*logo home button*/
+.page-header .heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.header-home-link {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.header-home-link:hover {
+  transform: scale(1.08);
+}
+
+.header-home-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.3));
+}
+
+/*floral banner*/
+.page-header .banner-strip {
+  display: block;
+  width: 100%;
+  height: 34px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.header--map { background: linear-gradient(var(--color-terracotta),var(--color-coral)); }
+.header--chapters { background: linear-gradient(var(--color-green-dark),var(--color-green)); }
+.header--gallery { background: linear-gradient(var(--color-sand),var(--color-light-sand)); }
+.header--about { background: linear-gradient(var(--color-purple-dark),var(--color-purple)); }
+.header--stories { background: linear-gradient(var(--color-gold),var(--color-light-gold)); }
+.header--mapinfo { background: linear-gradient(var(--color-terracotta),var(--color-coral)); }
+
+/* Top-right music toggle */
+.music-toggle {
+  position: fixed;
+  top: 1.1rem;
+  right: 1.1rem;
+  z-index: 1100;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 2px solid var(--color-ink);
+  background: #fdfaf3;
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.35);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  transition: transform 0.2s ease;
+}
+
+.music-toggle img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+}
+
+.back-btn, .up-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-ink);
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 500;
+  text-decoration: none;
+}
+
+.back-btn { left: 1.5rem; }
+.up-btn { right: 1.5rem; }
+.back-btn:hover, .up-btn:hover { opacity: 0.85; }
+
+/* Footer */
+.footer {
+  border-top: 1px solid #2222;
+  padding: 6px 0;
+  background: var(--color-brown-dark);
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  text-align: center;
+}
+
+.footer-container p {
+  font-size: 0.85rem;
+  font-family: var(--font-body);
+  color: #f0f0f0;
+  margin: 0;
+}

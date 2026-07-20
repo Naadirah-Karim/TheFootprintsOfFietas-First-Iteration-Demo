@@ -1,0 +1,66 @@
+.chapters-page {
+  min-height: 95vh;
+  background: var(--color-cream);
+  padding-bottom: 3rem;
+}
+
+.chapters-divider {
+  position: relative;
+  max-width: 1550px;
+  margin: 0;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid #e8a86c;
+}
+
+.divider-pin {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  transform: translateY(50%) rotate(-7deg);
+}
+
+.chapters-grid {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0.1rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+
+.chapter-card {
+  background: #ececec;
+  border: 1.5px solid var(--color-ink);
+  border-radius: 2px;
+  padding: 1.5rem 1rem 1.75rem;
+  text-decoration: none;
+  color: var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chapter-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.chapter-illustration {
+  width: 100%;
+  max-width: 190px;
+  height: auto;
+  object-fit: contain;
+}
+
+.chapter-label {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 1.15rem;
+  letter-spacing: 0.5px;
+  color: var(--color-ink);
+}

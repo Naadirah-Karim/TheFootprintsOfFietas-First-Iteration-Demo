@@ -1,0 +1,102 @@
+.chapter-page {
+  min-height: 100vh;
+  background: url('/Icons/BG2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+}
+
+.chapter-body-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.chapter-body {
+  max-width: 1200px;
+  width: 100%;
+  background: var(--color-cream-deep);
+  backdrop-filter: blur(2px);
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  padding: 2.5rem;
+  margin-top: 2rem;
+}
+
+.chapter-body p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: #3a2f22;
+  margin: 0 0 1.25rem;
+}
+
+.chapter-dedication {
+  font-style: italic;
+  text-align: center;
+  color: var(--color-brown-dark);
+  border-top: 1px solid #e0d6cc;
+  padding-top: 1.25rem;
+}
+
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.chapter-nav-btn {
+  background: var(--color-green);
+  border: 2px solid var(--color-ink);
+  box-shadow: 4px 4px 0 var(--color-ink);
+  border-radius: 10px;
+  padding: 0.8rem 1.8rem;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: auto;
+}
+
+.chapter-nav-btn:hover {
+  background: var(--color-green-dark);
+  box-shadow: 2px 2px 0px var(--color-ink);
+  transform: translateY(-2px);
+  color: var(--color-cream);
+}
+
+.chapter-nav-btn.ghost {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: var(--color-brown-dark);
+  text-decoration: underline;
+  padding: 0.8rem 0;
+  margin-left: 0;
+}
+
+.chapter-page .btn-exploration {
+  padding: 0.9rem 2.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid var(--color-ink);
+  font-family: var(--font-heading);
+  background-color: var(--color-purple);
+  color: #000;
+  box-shadow: 4px 4px 0 var(--color-ink);
+  margin-left: auto;
+}
+
+.chapter-page .btn-exploration:hover {
+  background-color: var(--color-purple-dark);
+  box-shadow: 2px 2px 0px var(--color-ink);
+  transform: translateY(-2px);
+  color: var(--color-cream);
+}

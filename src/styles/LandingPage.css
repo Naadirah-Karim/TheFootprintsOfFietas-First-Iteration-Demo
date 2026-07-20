@@ -1,0 +1,96 @@
+.landing {
+  min-height: 95vh;
+  background: var(--color-cream-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 0 1.5rem;
+}
+
+.hero {
+  max-width: 1530px;
+  width: 100%;
+}
+
+.logo-icon {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto 0.5rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: var(--color-brown-dark);
+  margin: 0 0 1rem;
+  letter-spacing: -0.01em;
+  font-family: var(--font-display);
+}
+
+.tagline {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: var(--color-brown-dark);
+  line-height: 1.4;
+  margin: 0 auto 0.2rem;
+  max-width: 720px;
+  font-family: var(--font-tagline);
+  font-style: italic;
+}
+
+.houses-illustration {
+  width: 100%;
+  max-width: 1520px;
+  height: auto;
+  margin: 0;
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-story, .btn-exploration {
+  padding: 0.9rem 2.2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid var(--color-ink);
+  font-family: var(--font-heading);
+  box-shadow: 4px 4px 0px var(--color-ink);
+  text-align: center;
+  min-width: 150px;
+}
+
+.btn-story {
+  background-color: var(--color-green);
+  color: #000;
+}
+
+.btn-story:hover {
+  background-color: var(--color-green-dark);
+  box-shadow: 2px 2px 0px var(--color-ink);
+  transform: translateY(-2px);
+  color: var(--color-cream);
+}
+
+.btn-exploration {
+  background-color: var(--color-purple);
+  color: #000;
+}
+
+.btn-exploration:hover {
+  background-color: var(--color-purple-dark);
+  box-shadow: 2px 2px 0px var(--color-ink);
+  transform: translateY(-2px);
+  color: var(--color-cream);
+}

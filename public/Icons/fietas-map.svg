@@ -1,0 +1,124 @@
+<svg viewBox="0 0 1276 792" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="paper" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.03 0"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1276" height="792" fill="#e9dfc2"/>
+
+  <!-- cemetery patch, top-left -->
+  <rect x="0" y="0" width="230" height="200" fill="#c9caa0"/>
+  <text x="14" y="30" font-family="Georgia, serif" font-size="15" fill="#6b6b48" opacity="0.8">...TON</text>
+  <text x="14" y="50" font-family="Georgia, serif" font-size="15" fill="#6b6b48" opacity="0.8">...TERY</text>
+
+  <!-- FIETAS green district patch, left -->
+  <rect x="0" y="200" width="270" height="480" fill="#c3cf9e"/>
+  <text x="14" y="440" font-family="Georgia, serif" font-size="15" fill="#6b6b48" opacity="0.8">ETT ROAD</text>
+
+  <!-- FIETAS signpost -->
+  <g transform="translate(20,520)">
+    <rect x="0" y="0" width="185" height="50" fill="#f2ead2" stroke="#3a3226" stroke-width="2"/>
+    <polygon points="185,0 210,25 185,50" fill="#f2ead2" stroke="#3a3226" stroke-width="2"/>
+    <text x="20" y="33" font-family="Georgia, serif" font-size="22" letter-spacing="2" fill="#3a3226">FIETAS</text>
+  </g>
+
+  <!-- housing block rows -->
+  <g font-family="Georgia, serif" font-size="13" fill="#5a4a34">
+    <!-- row template: rect band + label -->
+    <rect x="295" y="118" width="330" height="34" fill="#dba86c" opacity="0.75"/>
+    <text x="635" y="140">12th</text>
+
+    <rect x="295" y="166" width="330" height="34" fill="#dba86c" opacity="0.65"/>
+    <text x="635" y="188">13th</text>
+
+    <rect x="295" y="214" width="330" height="34" fill="#dba86c" opacity="0.75"/>
+    <text x="635" y="236">14th</text>
+
+    <rect x="295" y="262" width="330" height="34" fill="#dba86c" opacity="0.65"/>
+    <text x="635" y="284">15th</text>
+
+    <rect x="295" y="310" width="330" height="34" fill="#dba86c" opacity="0.75"/>
+    <text x="635" y="332">16th</text>
+
+    <rect x="295" y="358" width="330" height="34" fill="#e0b98a" opacity="0.6"/>
+
+    <rect x="295" y="410" width="330" height="34" fill="#dba86c" opacity="0.75"/>
+    <text x="635" y="432">18th</text>
+
+    <rect x="295" y="458" width="330" height="34" fill="#dba86c" opacity="0.65"/>
+    <text x="635" y="480">19th</text>
+
+    <rect x="295" y="506" width="330" height="34" fill="#dba86c" opacity="0.75"/>
+    <text x="635" y="528">20th</text>
+
+    <rect x="295" y="554" width="330" height="34" fill="#dba86c" opacity="0.65"/>
+    <text x="635" y="576">21st</text>
+
+    <rect x="295" y="602" width="330" height="34" fill="#dba86c" opacity="0.75"/>
+    <text x="330" y="624">22nd</text>
+
+    <rect x="295" y="650" width="330" height="34" fill="#dba86c" opacity="0.65"/>
+    <text x="330" y="672">23rd</text>
+
+    <rect x="295" y="698" width="330" height="34" fill="#dba86c" opacity="0.75"/>
+    <text x="330" y="720">24th</text>
+
+    <rect x="295" y="746" width="260" height="30" fill="#dba86c" opacity="0.55"/>
+    <text x="330" y="765">25th</text>
+  </g>
+
+  <!-- small circular street junction glyphs -->
+  <g stroke="#5a4a34" stroke-width="1.4" fill="none" opacity="0.55">
+    <circle cx="340" cy="160" r="10"/>
+    <circle cx="340" cy="160" r="4"/>
+    <circle cx="522" cy="206" r="10"/>
+    <path d="M512,206 h20 M522,196 v20"/>
+    <circle cx="340" cy="302" r="10"/>
+    <circle cx="340" cy="302" r="10"/>
+    <circle cx="438" cy="350" r="10"/>
+    <circle cx="438" cy="350" r="4"/>
+    <circle cx="340" cy="546" r="10"/>
+    <path d="M330,546 h20 M340,536 v20"/>
+    <circle cx="493" cy="498" r="10"/>
+    <circle cx="604" cy="498" r="10"/>
+    <circle cx="450" cy="546" r="10"/>
+    <path d="M440,546 h20 M450,536 v20"/>
+    <circle cx="337" cy="690" r="10"/>
+    <circle cx="337" cy="690" r="4"/>
+  </g>
+
+  <!-- vertical street: STR column right of blocks -->
+  <line x1="628" y1="100" x2="628" y2="792" stroke="#5a4a34" stroke-width="2" opacity="0.4"/>
+  <text x="632" y="60" font-family="Georgia, serif" font-size="15" fill="#5a4a34" transform="rotate(90 632,60)" opacity="0.7">STR</text>
+
+  <!-- Soloman Street label + teal blocks (railway yards / reservoir) -->
+  <rect x="690" y="118" width="120" height="60" fill="#a9c9c2" opacity="0.85"/>
+  <rect x="820" y="118" width="120" height="60" fill="#a9c9c2" opacity="0.85"/>
+  <rect x="690" y="192" width="120" height="60" fill="#a9c9c2" opacity="0.85"/>
+  <rect x="820" y="192" width="120" height="60" fill="#a9c9c2" opacity="0.85"/>
+  <rect x="690" y="266" width="250" height="50" fill="#a9c9c2" opacity="0.6"/>
+
+  <text x="965" y="140" font-family="Georgia, serif" font-size="16" fill="#4a5a55" transform="rotate(90 965,140)">SOLOMAN STR</text>
+
+  <!-- railway diagonal lines, bottom-right -->
+  <g stroke="#8a8064" stroke-width="3" fill="none" opacity="0.75">
+    <path d="M660,340 C 850,420 1050,470 1276,560"/>
+    <path d="M660,375 C 870,455 1060,510 1276,610"/>
+    <path d="M700,320 C 900,380 1080,430 1276,500"/>
+  </g>
+  <g stroke="#8a8064" stroke-width="1.4" stroke-dasharray="6 6" fill="none" opacity="0.8">
+    <path d="M660,340 C 850,420 1050,470 1276,560"/>
+    <path d="M660,375 C 870,455 1060,510 1276,610"/>
+  </g>
+
+  <text x="960" y="380" font-family="Georgia, serif" font-size="16" fill="#4a3f2e" opacity="0.85">Braamfontein Station</text>
+  <text x="1010" y="330" font-family="Georgia, serif" font-size="14" fill="#4a3f2e" opacity="0.8">Subway</text>
+  <text x="900" y="465" font-family="Georgia, serif" font-size="15" fill="#4a3f2e" opacity="0.8" transform="rotate(20 900,465)">DE LA REY STR</text>
+  <text x="1140" y="475" font-family="Georgia, serif" font-size="22" letter-spacing="2" fill="#4a3f2e" opacity="0.85">S.A.R.</text>
+
+  <!-- subtle paper texture overlay -->
+  <rect x="0" y="0" width="1276" height="792" fill="#e9dfc2" opacity="0.02" filter="url(#paper)"/>
+</svg>
